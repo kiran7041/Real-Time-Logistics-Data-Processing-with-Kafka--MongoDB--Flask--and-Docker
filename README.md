@@ -99,8 +99,6 @@ data stored in mongodb screenshot:
 
 ### 1. Start Kafka and MongoDB
 Ensure Docker is installed, then run:
-
-```bash
 docker-compose up -d
 
 ### 2. Start Producer
@@ -116,7 +114,6 @@ python logistics_data_api2.py
 ### 5. Test APIs
 Use Postman or a browser to verify API responses.
 
-
 ## Verifying Data
 
 - Check MongoDB data using MongoDB Compass. 
@@ -130,8 +127,7 @@ Use Postman or a browser to verify API responses.
 - 'Enhance Data Processing': Use 'Apache Spark' for batch processing and more advanced analytics.
 - 'Deploy on Cloud': Deploy Kafka, MongoDB, and APIs using 'Kubernetes' on a cloud provider like 'AWS' or 'Azure' for scalability.
 - 'Add Monitoring': Use 'Prometheus' and 'Grafana' to monitor Kafka topics, consumer lag, and API performance.
-
-
+  
 ## Conclusion
 
 This project successfully demonstrates real-time data streaming with Kafka, MongoDB, and Flask APIs, integrating scalable consumer architecture using Docker and Kafka partitions.
@@ -142,8 +138,3 @@ This project successfully demonstrates real-time data streaming with Kafka, Mong
 - **Screenshot placeholders**: Replace the `path/to/screenshotX.png` with the actual paths to your screenshots.
 - **File paths**: If using local directories or GitHub, ensure the paths are correct or hosted on a cloud storage service.
 - **Testing and API details**: You can add more information on the API responses or specific testing steps with Postman if needed.
-
-
-
-
-
