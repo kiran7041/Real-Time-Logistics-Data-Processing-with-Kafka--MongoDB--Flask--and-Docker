@@ -1,0 +1,9 @@
+confluent_kafka
+httpx
+attrs
+pymongo
+requests
+fastavro
+cachetools
+flask
+pymongo
